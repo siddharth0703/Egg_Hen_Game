@@ -62,7 +62,7 @@ def isCollision(egg_x, egg_y, bucket_x, bucket_y):
     return False
 
 
-# Font Score
+# Font Score updated
 def scorecard(x, y):
     textsurface = font.render('Score : ' + str(score_value), True, (0, 0, 0))
     screen.blit(textsurface, (0, 0))
